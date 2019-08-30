@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29020.237
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Toggles", "Toggles\Toggles.csproj", "{BF9DCA04-948E-4A88-8787-04798BA0FDFB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Toggles.Test", "Toggles.Test\Toggles.Test.csproj", "{9D424E84-DBD4-4F81-A713-11AB87603E5C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BF9DCA04-948E-4A88-8787-04798BA0FDFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF9DCA04-948E-4A88-8787-04798BA0FDFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF9DCA04-948E-4A88-8787-04798BA0FDFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF9DCA04-948E-4A88-8787-04798BA0FDFB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D424E84-DBD4-4F81-A713-11AB87603E5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D424E84-DBD4-4F81-A713-11AB87603E5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D424E84-DBD4-4F81-A713-11AB87603E5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D424E84-DBD4-4F81-A713-11AB87603E5C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B84B1CD4-5D10-4A58-ACE8-4FA7C61D36FD}
+	EndGlobalSection
+EndGlobal
