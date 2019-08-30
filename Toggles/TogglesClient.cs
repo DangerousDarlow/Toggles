@@ -7,7 +7,7 @@ namespace Toggles
         bool IsEnabled(string toggle, IEnumerable<string> identifiers = null);
     }
 
-    public class Toggles : IToggles
+    public class TogglesClient : IToggles
     {
         private readonly Dictionary<string, Dictionary<string, bool>> _cache =
             new Dictionary<string, Dictionary<string, bool>>();
