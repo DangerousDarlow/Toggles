@@ -8,11 +8,11 @@ namespace Toggles.Test
     {
         public TogglesTest()
         {
-            Instance = new TogglesClient();
+            Instance = new TogglesCache();
             Interface = Instance;
         }
 
-        private TogglesClient Instance { get; }
+        private TogglesCache Instance { get; }
         private IToggles Interface { get; }
 
         private readonly string Toggle = "Toggle";

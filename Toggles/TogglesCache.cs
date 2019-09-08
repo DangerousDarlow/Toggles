@@ -2,12 +2,7 @@
 
 namespace Toggles
 {
-    public interface IToggles
-    {
-        bool IsEnabled(string toggle, IEnumerable<string> identifiers = null);
-    }
-
-    public class TogglesClient : IToggles
+    public class TogglesCache : IToggles
     {
         private readonly Dictionary<string, Dictionary<string, bool>> _cache =
             new Dictionary<string, Dictionary<string, bool>>();
