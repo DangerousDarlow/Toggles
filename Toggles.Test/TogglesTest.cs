@@ -8,7 +8,7 @@ namespace Toggles.Test
     {
         public TogglesTest()
         {
-            Instance = new TogglesCache();
+            Instance = new TogglesCache(null);
             Interface = Instance;
         }
 

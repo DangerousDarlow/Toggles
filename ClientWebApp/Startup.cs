@@ -22,7 +22,8 @@ namespace ClientWebApp
             // In production, the React files will be served from this directory
             services.AddSpaStaticFiles(configuration => { configuration.RootPath = "ClientApp/build"; });
 
-            services.AddSingleton<IToggles>(new TogglesCache());
+            services.AddSingleton<ITogglesRemoteSync, RabbitRemoteSync>();
+            services.AddSingleton<IToggles, TogglesCache>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
